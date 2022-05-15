@@ -5,6 +5,7 @@ exam_two = int(input("Input exam grade two: "))
 exam_three = int(input("Input exam grade three: "))
 
 grades = [exam_one, exam_two, exam_three]
+
 sum = 0
 for grade in grades:
     sum = sum + grade
